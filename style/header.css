@@ -1,0 +1,34 @@
+.header {
+    background-color: #adb5bd;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.theme{
+    padding: 5px;
+    width: 35px;
+    height: 35px;
+    border: 0;
+    background-image: url("/img/moon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: inherit;
+}
+.newToDo{
+    background-image: url("/img/add.png");
+    padding: 0;
+    width: 35px;
+    height: 35px;
+    border: 0;
+
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: inherit;
+}
+.header__create_form{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
